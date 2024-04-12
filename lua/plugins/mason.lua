@@ -12,8 +12,9 @@ return {
       ensure_installed = {
         "lua_ls",
         -- add more arguments for adding more language servers
-      },
-    },
+        "clangd"
+      })
+    end,
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
   {
